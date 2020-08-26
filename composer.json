@@ -1,0 +1,38 @@
+{
+    "name": "devnet/project",
+    "description": "A DevNet Framework project for rapid application development",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Moussaoui",
+            "email": "m.moussaoui@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Application\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevNet-Framework/SDK.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevNet-Framework/Core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevNet-Framework/DevNet.git"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "devnet/sdk": "dev-master",
+        "devnet/core": "dev-master",
+        "devnet/devnet": "dev-master"
+    }
+}
