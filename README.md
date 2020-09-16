@@ -1,5 +1,5 @@
 # DevNet Project Installer
-This dependency is the main repository of **DevNet Framework**, will install **DevNet SDK** and **Libraries** needed for your project, and helps you build your application quickly.  
+This dependency is the main repository of **DevNet Framework**, will install **DevNet SDK**, **DevNet Components** and **Core Library** needed for your project, for rapid application development.
 
 > **Note :** This is an early release, not recommended for production use.
 
@@ -7,8 +7,8 @@ This dependency is the main repository of **DevNet Framework**, will install **D
 Befor installing DevNet Framework, make sure you have [Composer](https://getcomposer.org/) and [PHP 7.4](https://www.php.net/) or higher version installed in your computer.
 
 ## Installation
-1. Download or clone **DevNet Project** repository
-2. Rename the folder project any name you want
+1. Download or clone **DevNet Project Installer** repository
+2. Rename the folder of the project installer any name you want
 3. Navigate to the root folder of your project and run the following scripts :
 
 ```bash
