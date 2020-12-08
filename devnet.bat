@@ -1,2 +1,2 @@
 @echo OFF
-php bin/devnet.php %*
+vendor/bin/devnet %*
