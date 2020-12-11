@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-vendor/bin/devnet $@
+php vendor/bin/devnet $@
