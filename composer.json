@@ -18,15 +18,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/SDK.git"
+            "url": "https://github.com/DevNet-Framework/sdk.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/Core.git"
+            "url": "https://github.com/DevNet-Framework/core.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/DevNet.git"
+            "url": "https://github.com/DevNet-Framework/devnet.git"
         }
     ],
     "require": {
