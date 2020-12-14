@@ -22,12 +22,12 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/devnet.git"
+            "url": "https://github.com/DevNet-Framework/framework.git"
         }
     ],
     "require": {
         "php": ">=7.4.0",
         "devnet/core": "dev-master",
-        "devnet/devnet": "dev-master"
+        "devnet/framework": "dev-master"
     }
 }
