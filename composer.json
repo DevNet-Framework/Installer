@@ -18,6 +18,10 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/DevNet-Framework/cli.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/DevNet-Framework/core.git"
         },
         {
@@ -27,6 +31,7 @@
     ],
     "require": {
         "php": ">=7.4.0",
+        "devnet/cli": "dev-master",
         "devnet/core": "dev-master",
         "devnet/framework": "dev-master"
     }
