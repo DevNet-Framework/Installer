@@ -27,12 +27,17 @@
         {
             "type": "vcs",
             "url": "https://github.com/DevNet-Framework/framework.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevNet-Framework/entity.git"
         }
     ],
     "require": {
         "php": ">=7.4.0",
         "devnet/cli": "dev-master",
         "devnet/core": "dev-master",
-        "devnet/framework": "dev-master"
+        "devnet/framework": "dev-master",
+        "devnet/entity": "dev-master"
     }
 }
