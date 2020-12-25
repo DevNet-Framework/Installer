@@ -1,7 +1,7 @@
 {
-    "name": "devnet/project",
-    "description": "A DevNet Framework project for rapid application development",
-    "type": "project",
+    "name": "devnet/installer",
+    "description": "A DevNet Framework CLI Installer",
+    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
@@ -10,33 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Application\\": ""
-        }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/cli.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/core.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/web.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/DevNet-Framework/entity.git"
-        }
-    ],
     "require": {
         "php": ">=7.4.0",
-        "devnet/cli": "dev-master",
         "devnet/core": "dev-master",
+        "devnet/cli": "dev-master",
         "devnet/web": "dev-master",
         "devnet/entity": "dev-master"
     }
