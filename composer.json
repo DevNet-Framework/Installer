@@ -15,6 +15,7 @@
         "devnet/core": "dev-master",
         "devnet/cli": "dev-master",
         "devnet/web": "dev-master",
-        "devnet/web-project": "dev-master"
+        "devnet/web-project": "dev-master",
+        "devnet/mvc-project": "dev-master"
     }
 }
