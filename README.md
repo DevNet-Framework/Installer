@@ -70,6 +70,6 @@ Hello World!
 ```bash
 devnet --help
 ```
->**Note :** Full documentation on how to use **DevNet Framework** is available at [devnet-framework.github.io](https://devnet-framework.github.io/docs)
+>**Note :** Full documentation on how to use **DevNet Framework** is available at [devnet-framework.github.io](https://devnet-framework.github.io)
 
 That's it! Enjoy coding and build cool things :)
