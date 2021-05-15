@@ -12,9 +12,9 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.4.0",
-        "devnet/core": "dev-master",
         "devnet/cli": "dev-master",
         "devnet/web": "dev-master",
+        "devnet/entity": "dev-master",
         "devnet/web-project": "dev-master",
         "devnet/mvc-project": "dev-master"
     }
