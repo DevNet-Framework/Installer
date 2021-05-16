@@ -9,12 +9,11 @@
             "email": "m.moussaoui@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4.0",
-        "devnet/cli": "dev-master",
-        "devnet/web": "dev-master",
-        "devnet/entity": "dev-master",
+        "devnet/cli": "1.0.*",
+        "devnet/web": "1.0.*",
+        "devnet/entity": "1.0.*",
         "devnet/web-project": "dev-master",
         "devnet/mvc-project": "dev-master"
     }
