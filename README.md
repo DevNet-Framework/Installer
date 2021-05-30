@@ -1,8 +1,9 @@
 # DevNet Installer
-This dependency is the main repository of **DevNet Framework**, that will install the following packages:
+This dependency is the main repository of **DevNet Framework**, which will run a full installation of DevNet Framework that includes the following packages:
 - **devnet/core** a basic common library needed for all DevNet components.
 - **devnet/cli** a command line Interpreter that has development tool, for creating and running DevNet prjects
 - **devnet/web** a collection of web components that helps to create a web project in modern way.
+- **devnet/entity** an object relational mapping system that helps to manipulate database, in object-oriented way.
 
 ## Requirements
 - PHP 7.4 or higher version from [php.net](https://www.php.net/)
@@ -19,12 +20,15 @@ so in the terminal type the following command:
 ```bash
 composer global config minimum-stability dev
 ```
-
-To install DevNet framework globally, run the following command in the terminal:
-
+Then force composer to prefer the stable version if that possible, like so:
+```bash
+composer global config prefer-stable true
+```
+Now you can install DevNet framework globally, by running the following command in the terminal:
 ```bash
 composer global require devnet/installer
 ```
+
 >**Note:** For linux users, do not forget to add into the System Environment Variables the following line:
 `export PATH="$PATH:$HOME/.config/composer/vendor/bin"`
 
@@ -42,7 +46,7 @@ This will create a simple console application that output a "Hello World" messag
 
 namespace Application;
 
-use DevNet\System\Console;
+use DevNet\System\IO\Console;
 
 class Program
 {
