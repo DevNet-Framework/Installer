@@ -1,7 +1,7 @@
 {
     "name": "devnet/installer",
-    "description": "A DevNet Framework CLI Installer",
-    "type": "metapackage",
+    "description": "DevNet Plugin Installer",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -9,13 +9,16 @@
             "email": "m.moussaoui@outlook.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "DevNet\\Extensions\\": "src/"
+        }
+    },
     "require": {
         "php": ">=7.4.0",
-        "devnet/core": "1.0.*",
-        "devnet/cli": "1.0.*",
-        "devnet/web": "1.0.*",
-        "devnet/entity": "1.0.*",
-        "devnet/web-project": "1.0.*",
-        "devnet/mvc-project": "1.0.*"
+        "composer-plugin-api": "^1.0 || ^2.0"
+    },
+    "extra": {
+        "class": "DevNet\\Extensions\\Plugin"
     }
 }
